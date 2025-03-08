@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/*CSS document*/
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte1: 'Passion One'
+}
+
+header {
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: var(--fonte1);
+}
+
+header h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+header h4 > a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header h4 > a:hover {
+    text-decoration: underline;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: cursive;
+}
+
+p {
+    max-width: 400px;
+}
+
+section {
+    font-size: 2.7vw;
+    padding: 0px;
+}
+
+section p {
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    line-height: 2em;
+    max-width: 100%
+}
+
+#img01 {
+    background-image: url('https://luananascimento2112.github.io/projeto-cordel/imagens/background001.jpg');
+    background-position: right top;
+}
+
+#img02 {
+    background-image: url(https://luananascimento2112.github.io/projeto-cordel/imagens/background002.jpg);
+}
+
+.image {
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+
+section.image p {
+    max-width: 40%;
+    margin-left: 0;
+    margin-right: 60px;
+    color: white;
+    text-shadow: 3px 0px rgba(0, 0, 0, 0.458);
+    background-color: rgba(0, 0, 0, 0.381);
+    padding: 30px;
+    border-radius: 10px;
+    padding-right: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 50px; /* Define uma altura mínima para o footer */
+    text-align: center;
+    background-color: black;
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
